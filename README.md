@@ -1,6 +1,6 @@
 # inventory-service
 
-Stock levels and reservations for the [ar-ecommerce-platform](https://github.com/ar-ecommerce-platform).
+Stock levels and reservations for the [ar-ecommerce-backend](https://github.com/ar-ecommerce-backend).
 
 - **Port:** 8084
 - **Persistence:** `inventory_items`, keyed by `productId`. Seeded for ids 1..5; **product 5 low (qty 3)** for the out-of-stock demo. Dev: in-memory H2. `prod`: PostgreSQL + Flyway.
